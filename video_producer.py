@@ -18,7 +18,8 @@ import time
 import cv2
 
 # Default RabbitMQ server URI
-rabbit_url = 'amqp://guest:guest@localhost:5672//'
+# rabbit_url = 'amqp://guest:guest@localhost:5672//'
+rabbit_url = 'amqp://guest:guest@192.168.68.61:5672//'
 
 # Kombu Connection
 conn = Connection(rabbit_url)
